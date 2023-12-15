@@ -72,3 +72,13 @@ void mod_nodes(stack_t **, unsigned int);
 
 /*String operations*/
 void print_char(stack_t **, unsigned int);
+void print_str(stack_t **, unsigned int);
+void rotl(stack_t **, unsigned int);
+
+/*Error hanlding*/
+void eus(int eurcode, ...);
+void peus(int eurcode, ...);
+void steus(int eurcode, ...);
+void rotr(stack_t **, unsigned int);
+
+#endif
